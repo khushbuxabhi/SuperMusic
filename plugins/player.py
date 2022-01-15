@@ -335,18 +335,18 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/a6aa58247f23fd76034c9.jpg", 
+                             photo="https://telegra.ph/file/290c64cb1f20548b5fc27.jpg", 
                              caption="**💥 𝐀𝐥𝐞𝐱𝐚 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
     )
 
 
-@Client.on_message(commandpro(["/resume", "resume"]) & other_filters)
+@Client.on_message(commandpro(["/resume"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/a6aa58247f23fd76034c9.jpg", 
+                             photo="https://telegra.ph/file/290c64cb1f20548b5fc27.jpg", 
                              caption="**💥 𝐀𝐥𝐞𝐱𝐚 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏸ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**"
     )
 
@@ -380,12 +380,12 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/a6aa58247f23fd76034c9.jpg", 
+                             photo="https://telegra.ph/file/290c64cb1f20548b5fc27.jpg", 
                              caption=f'**💥 𝐀𝐥𝐞𝐱𝐚 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**'
    ) 
 
 
-@Client.on_message(commandpro(["/end", "end", "/stop", "stop", "x"]) & other_filters)
+@Client.on_message(commandpro(["/end"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/a6aa58247f23fd76034c9.jpg", 
+                             photo="https://telegra.ph/file/290c64cb1f20548b5fc27.jpg", 
                              caption="**💥 𝐀𝐥𝐞𝐱𝐚 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
     )
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/a6aa58247f23fd76034c9.jpg",
+                              photo="https://telegra.ph/file/290c64cb1f20548b5fc27.jpg",
                               caption="**💥 𝐀𝐥𝐞𝐱𝐚 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**"
     )

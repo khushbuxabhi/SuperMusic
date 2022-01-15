@@ -33,19 +33,19 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/fd880593afcb71a2c02cd.jpg",
+        photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟᴇxᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [Aʙʜɪᴍᴀɴʏᴜ Rᴀɴᴀ](https://t.me/Itz_Venom_xD)
-┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟɪsʜᴀ Sᴇʀᴠᴇʀ](https://t.me/AlishaSupport)
-┣★ sᴜᴘᴘᴏʀᴛ : [Aʟɪsʜᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
-┣★ ᴏᴡɴᴇʀ › : [Cᴀɴᴅʏ ǫᴜᴇᴇɴ](https://t.me/candy_626)
+┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟᴇxᴀ Sᴇʀᴠᴇʀ](https://t.me/AlishaSupport)
+┣★ sᴜᴘᴘᴏʀᴛ : [Aʟᴇxᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
+┣★ ᴏᴡɴᴇʀ › : [ʜᴀʀsʜɪᴛ sʜᴀʀᴍᴀ](https://t.me/HarshitSharma361)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Itz_Venom_xD) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/HarshitSharma361) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -59,10 +59,10 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "Candy"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        photo=f"https://telegra.ph/file/67bb995d40e96954c9413.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -78,13 +78,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        photo=f"https://telegra.ph/file/67bb995d40e96954c9413.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/Itz_Venom_xD")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/CandyMusic/AlishaMusicPlayer")
                 ]
             ]
         ),
